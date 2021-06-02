@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Shabnam;
+  src: url('./shabnam/Shabnam.eot');
+  src: url('./shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('./shabnam/Shabnam.woff') format('woff'),
+       url('./shabnam/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('./shabnam/Shabnam-Bold.eot');
+  src: url('./shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./shabnam/Shabnam-Bold.woff') format('woff'),
+       url('./shabnam/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('./shabnam/Shabnam-Light.eot');
+  src: url('./shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+       url('./shabnam/Shabnam-Light.woff') format('woff'),
+       url('./shabnam/Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+.farsi {
+  direction: rtl;
+  font-family: Shabnam !important;
+}
+.cn {
+  text-align: center;
+}
+
+.list {
+  text-align: right;
+  font-size: 1rem;
+  line-height: 2;
+  margin-top: 2rem;
+  list-style-type: square;
+  padding-right: 2rem;
+}
+.list li {
+  transition: transform 0.3s ease;
+}
+.list li:hover {
+  color: #f54c2b;
+  transform: translateZ(40px);
+}
+
+.vasat {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  line-height: 2;
+}
+.shahrara h1 {
+  font-size: 10rem !important;
+  margin-top: 4rem;
+}
+
+.idea b {
+  padding-top: 1rem;
+}
+#source  {
+  text-align: center;
+}
+#source img {
+  margin: 0 auto;
+  width: 300px;
+}

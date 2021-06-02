@@ -1,0 +1,186 @@
+.small-description {
+  font-size: 1rem;
+}
+
+.medium-description {
+  font-size: 1.8rem;
+}
+
+.h-slide.step {
+  opacity: 0.001;
+}
+
+.titr-pic {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.titr-pic img {
+  width: 6rem;
+  height: 6rem;
+  margin: 0.2rem;
+  border-radius: 6rem;
+}
+
+.titr-pic strong {
+  line-height: 6rem;
+  margin-right: 1rem;
+}
+
+.presenter-pic {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 1rem;
+}
+
+.presenter-pic img {
+  width: 5rem;
+  height: 5rem;
+  margin: 0.2rem;
+  border-radius: 6rem;
+}
+
+.presenter-pic p {
+  font-size: 2rem;
+  line-height: 6rem;
+  margin-right: 1rem;
+}
+
+.team-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.team-images img {
+  width: 6.5rem;
+  height: 6.5rem;
+  margin: 0.2rem;
+  border: 3px solid goldenrod;
+  border-radius: 6.5rem;
+  transition: all 0.6s;
+}
+
+.person {
+  font-size: 1rem;
+  margin: 1rem;
+  transition: all 0.6s;
+}
+
+.person:hover {
+  transform: scale(1.2);
+  color: rgb(255, 115, 0);
+  cursor: pointer;
+}
+
+.person:hover img {
+  border: 3px solid rgb(255, 115, 0);
+  border-radius: 2.5rem;
+}
+
+.cnt-custom-link {
+  text-align: right;
+}
+
+.custom-link {
+  font-size: 1.5rem;
+  color: deepskyblue;
+  font-weight: lighter;
+  padding: 1.5rem;
+}
+
+.head-img-cnt img {
+  width: 100%;
+}
+
+.head-img-cnt p {
+  font-size: 1.9rem;
+}
+
+.twice-img-cnt {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.twice-img-cnt .web {
+  width: 50rem;
+}
+
+.twice-img-cnt .mobile {
+  height: 20rem;
+}
+
+.child-img-cnt img {
+  width: 70%;
+}
+
+.child-img-cnt p {
+  font-size: 1.9rem;
+}
+
+.custom-titles {
+  text-align: right;
+}
+
+.custom-titles .title {
+  margin: 1rem 0;
+}
+
+.back-btn {
+  font-size: 1rem;
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  pointer-events: auto;
+  cursor: pointer;
+  background-color: antiquewhite;
+  padding: 1rem;
+  opacity: 0.2;
+  border-radius: 0.2rem;
+}
+
+.back-btn:hover {
+  opacity: 1;
+  border: 2px solid goldenrod;
+}
+
+.saleh-points {
+  direction: ltr;
+}
+
+.saleh-points p {
+  text-align: left;
+  font-size: 1.8rem;
+}
+
+.saleh-points img {
+  width: 60%;
+}
+
+.step {
+  border: 1px solid rgba(255, 165, 0, 0.2);
+  border-radius: 30px;
+  filter: blur(3px);
+  filter: brightness(8px);
+  opacity: 0.15 !important;
+}
+
+.active {
+  border: 2px solid rgba(255, 165, 0, 0.8);
+  background: rgba(255, 216, 144, 0.028);
+  filter: blur(0px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+  opacity: 1 !important;
+}
+
+/* .step {
+  filter: blur(25px);
+  transition: filter 5000ms linear;
+}
+
+.active {
+  filter: blur(0px);
+  transition: filter 5000ms linear; */
