@@ -162,7 +162,7 @@
 
 .step {
   border: 1px solid rgba(255, 165, 0, 0.2);
-  border-radius: 30px;
+  border-radius: 1rem;
   filter: blur(3px);
   filter: brightness(8px);
   opacity: 0.15 !important;
@@ -174,6 +174,15 @@
   filter: blur(0px);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
   opacity: 1 !important;
+}
+
+.graph-pic {
+  height: 65vh;
+  margin-top: 1rem;
+}
+
+.graph-pic img {
+  height: 100%;
 }
 
 /* .step {
