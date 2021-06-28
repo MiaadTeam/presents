@@ -177,12 +177,11 @@
 }
 
 .graph-pic {
-  height: 65vh;
   margin-top: 1rem;
 }
 
 .graph-pic img {
-  height: 100%;
+  width: 100%;
 }
 
 /* .step {
