@@ -49,6 +49,11 @@
   transform: translateZ(40px);
 }
 
+.tx-left {
+    text-align: left !important;
+}
+
+
 .vasat {
   margin-top: 2rem;
   font-size: 2.5rem;
