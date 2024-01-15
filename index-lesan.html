@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/impress-demo.css" />
   <link rel="stylesheet" href="css/fn.css" />
   <link rel="stylesheet" href="./css/myStyles.css" />
-  <title>الست</title>
+  <title>لسان</title>
 </head>
 
 <body class="impress-not-supported">
@@ -26,21 +26,28 @@
   <div id="impress">
     <div class="step farsi cn" data-x="-1000" data-y="-1500">
       <q>
-        <strong>به نام خدای سلمان </strong>
+        <strong>بسم الله الرحمن الرحیم</strong>
       </q>
     </div>
     <div data-x="-1000" data-y="-1400" data-scale="0.25" class="step farsi cn">
-      <div>جستجوگری که نه مشقت ها و نه لذات مسیر او را از جستجوگری و سوال خسته و دلسرد نکرد</div>
+      <div>تقدیم به زبیده خاتون که بوعلی بزرگ به پائین پای او دفن شد تا مورد شفاعت سلطان طوس باشه</div>
     </div>
     <div class="step h-slide farsi cn" data-x="0" data-y="-1500">
-      <strong> داستان ما </strong>
+      <strong> داستان اپن سورس</strong>
+    </div>
+    <div class="step h-slide farsi cn" data-x="0" data-y="-1300" data-z="-500">
+      <strong> اصالت مدرک یا تایید علم توسط خبرگان</strong>
     </div>
 
-    <div class="step h-slide farsi cn" data-scale="0.25" data-x="0" data-y="-1350">
-      <div class="medium-description">
-        ما یه تیم از دانشگاه‌های مختلف بودیم که یه پروژه برای شفاف‌سازی سازمان‌ها پیاده‌سازی کردیم که با مشکلات تبادل
-        داده‌های عظیم و پردازش‌های سنگین این داده مواجه شدیم و سعی کردیم این معضلات رو برطرف کنیم
+    <div class="step h-slide farsi cn" data-x="0" data-y="-1000" data-z="-1000">
+      <strong>کار با تنظیمات اینتروپرونرها یا خدمت به خلق</strong>
+    </div>
+
+    <div class="step h-slide farsi cn" data-scale="0.25" data-x="0" data-y="-1500">
+      <div>
+        نسبت خواندن به نوشتن
       </div>
+      <canvas id="myChart"></canvas>
     </div>
 
     <div class="step h-slide farsi cn" data-scale="0.022" data-x="0" data-y="-1300">
@@ -304,6 +311,31 @@
     <script type="text/javascript" src="js/modal.js"></script>
     <script>
       impress().init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+      const ctx = document.getElementById('myChart');
+
+      new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: ["Read", "Write", "Delete", "Update"],
+          datasets: [{
+            label: '# of Votes',
+            data: [90, 5, 2, 3],
+            borderWidth: 3
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
     </script>
 </body>
 
